@@ -9,7 +9,7 @@ import { toast } from "sonner";
 
 interface ILogin {
   email: string;
-  password: String;
+  password: any;
 }
 
 export default function Login() {
