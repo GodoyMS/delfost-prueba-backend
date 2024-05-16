@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/src/app.js",
     "dev": "nodemon -r tsconfig-paths/register src/app.ts /Q | ./node_modules/.bin/bunyan",
-    "build": "ttsc -p . && node copyEjsFiles.js",
+    "build": "ttsc -p .",
     "prod": "node dist/src/app.js"
   },
   "keywords": [],
@@ -30,7 +30,7 @@
     "joi": "^17.9.1",
     "jsonwebtoken": "9.0.0",
     "lodash": "4.17.21",
-    "mongoose": "6.5.0"   
+    "mongoose": "6.5.0"
   },
   "devDependencies": {
     "@jest/types": "^29.5.0",
