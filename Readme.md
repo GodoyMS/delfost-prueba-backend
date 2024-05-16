@@ -57,8 +57,8 @@
 
 
 ## 3. Login
-- **Email Demo**: demo1@gmail.com
-- **Password Demo**: demo123
+- **Email Demo**: `demo1@gmail.com`
+- **Password Demo**: `demo123`
 
 
 ## 4. Depliegue
