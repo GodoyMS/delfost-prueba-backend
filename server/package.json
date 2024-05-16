@@ -5,10 +5,9 @@
   "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/src/app.js",
+    "start": "node dist/app.js",
     "dev": "nodemon -r tsconfig-paths/register src/app.ts /Q | ./node_modules/.bin/bunyan",
-    "build": "ttsc -p .",
-    "prod": "node dist/src/app.js"
+    "build": "ttsc -p ."
   },
   "keywords": [],
   "author": "",
